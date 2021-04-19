@@ -1,0 +1,323 @@
+*{
+  /* 初期化 */
+  margin:0px;padding:0px;
+}
+
+body {
+  color: rgb(51, 51, 51);
+}
+
+h1 p {
+  font-weight: normal;
+}
+
+
+
+.header-top {
+  background-image: url(img/main_visual.jpg);
+  background-size: cover;
+  height: 600px;
+  
+} 
+
+header h1 {
+ padding-left: 100px;
+ padding-top: 150px;
+ color: #fff;
+ font-size: 40px;
+}
+
+.header-h1 {
+  background-color: black;
+
+}
+
+
+
+
+.migisita {
+  position: absolute;
+  /* bottom: 150px; */
+  right: 50px;
+  color: #008DD5;
+  font-size: 23px;
+  background-color: #fff;
+  height: 180px;
+  width: 180px;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #008DD5;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.migisita:hover {
+  background-color: #008DD5;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+
+
+.header-nav {
+  display: flex;
+  padding-left: 100px;
+  background-color: #008DD5;
+  color: #fff;
+}
+
+.header-list {
+  padding: 30px 50px 30px 0;
+}
+
+.header-list2 {
+  margin-left: auto;
+  padding: 30px 50px 30px 0;
+}
+
+.section-container {
+  padding: 100px 0;
+}
+
+.content {
+  margin: 0 auto;
+  width: 700px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.section1-list-ul {
+  list-style: none;
+}
+
+.section1-list {
+  padding-bottom: 30px;
+
+}
+
+a {
+  text-decoration:none;
+  color: rgb(51, 51, 51);
+
+}
+
+.kakonojyouhou {
+  color: #008DD5;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration:underline
+}
+
+.date {
+  padding-right: 50px;
+}
+
+.list-content {
+  display: flex;
+}
+
+.section-shita {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.section-container2 {
+  padding: 100px 0;
+  background-color: #E6F6FF;
+}
+
+.contents {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.content2 {
+  background-color: #fff;
+  padding: 50px;
+
+}
+
+p {
+  line-height: 2.0;
+}
+
+
+
+.content-naiyou {
+  display: flex;
+
+}
+
+.content-img {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  height: 100%;
+  width: 360px;
+}
+
+.kinounituite {
+  color: #008DD5;
+  text-align: center;
+  border: 1px solid #008DD5;
+  padding: 15px 35px;
+  border-radius: 5px;
+}
+
+.kinounituite:hover {
+  background-color: #008DD5;
+  color: #fff;
+  transition: all 0.3s;
+  text-decoration: none;
+  
+}
+
+.content-img-1 {
+  margin: 0 40px 20px 0;
+}
+
+.c-n-p {
+  width: 460px;
+  padding-right: 60px;
+}
+
+.section3-list {
+  display: flex;
+  align-items: center;
+}
+
+.section-left {
+  margin-right: 30px;
+}
+
+.section3-img {
+  border-radius: 50%;
+}
+
+h3 {
+  font-size: 25px;
+  border-bottom: 2px solid #008DD5;
+}
+
+.section-container3 {
+  padding: 100px 0;
+}
+
+.content3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 100%;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.okyakusamanokoe {
+  width: 400px;
+  margin-bottom: 50px;
+  border: 1px solid rgb(51, 51, 51);
+}
+
+.c4-1 {
+  margin-right: 85px;
+}
+
+.p-white {
+  width: 400px;
+  height: 80px;
+  color: #fff;
+  text-align: center;
+  background-color: #008DD5;
+}
+
+.p-style {
+  padding: 10px;
+}
+
+input {
+  width: 600px;
+  height: 40px;
+}
+
+select {
+  width: 200px;
+  height: 40px;
+}
+
+textarea {
+  width: 600px;
+  height: 200px;
+}
+
+.form-btn {
+  text-align: center;
+}
+
+.btn {
+  width: 300px;
+  height: 50px;
+  margin-top: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #008DD5;
+  color: #fff;
+  transition: all 0.1s;
+}
+
+.form {
+  padding-top: 20px;
+}
+
+.contact-form {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.common-inner {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.page-footer__nav {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav-block__category {
+  margin-bottom: 50px;
+  color: #fff;
+  line-height: 1.0;
+  font-weight: bold;
+ 
+}
+
+.footer-nav-block__list li{
+  margin-bottom: 20px;
+  line-height: 1.0;
+
+  
+}
+
+.footer-nav-block__list a {
+
+  color: #fff;
+}
+
+.footer-nav-block__list {
+  list-style: none;
+}
+
+.page-footer {
+  padding: 50px 0;
+  background-color: #008DD5;
